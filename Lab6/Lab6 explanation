@@ -1,0 +1,6 @@
+Que 2 explanation: the output shows the 'PS1' pattern in the .bashrc file of which the content is executed by "cat" command which basically displays the content of the file here. grep executes the pattern in the file .bashrc.
+Que 4 explanation: "whereis" command finds the location of the command.
+                   "which" command gives the path of the external and does not return anything for internal.
+Que 9 explanation: (iii) it executes all the stacks which is added by command pushd in first in last out manner.
+(iv) it pushes the stack one step up.
+
