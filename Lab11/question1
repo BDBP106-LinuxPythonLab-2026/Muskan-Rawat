@@ -1,0 +1,3 @@
+Que(1):(i)newdir doesnot exists and shows error.
+yes after executing ls command, the ls command's output went to presentfiles and the error part went to filesnotpresent file.
+(ii) because there was no newdir directory there;s no content to direct it or tramsfer it to the "listoffiles" file therefore, it wxecuted an error.
