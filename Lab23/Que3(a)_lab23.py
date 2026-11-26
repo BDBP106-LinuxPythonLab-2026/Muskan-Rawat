@@ -3,13 +3,14 @@ columns= 4
 matrix=[]
 character= 65
 
-for r in range(rows):
-    row= []
-    for c in range(columns):
-        row.append(chr(character))
-        character += 1
-    matrix.append(row)
+with open("stringmatrix.dat", "w") as file:
+    for r in range(rows):
+        row= []
+        for c in range(columns):
+            row.append(chr(character))
+            character += 1
+            matrix.append(row)
+        file.write(" ".join(row) + "\n")
 
-for row in matrix:
-    print(row)
+print("stringmatrix.dat created successfully")
 
